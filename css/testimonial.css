@@ -1,0 +1,34 @@
+.testimonial-1{
+    grid-area: one;
+}
+
+.testimonial-2{
+    grid-area: two;
+
+}
+
+.testimonial-3{
+    grid-area: three;
+}
+
+
+.testimonial-area{
+    display: grid;
+    grid-template-areas:
+        'one two three';
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+
+.card {
+    width: 100%;
+    background-color: rgb(49, 49, 83);
+    padding-top: 25px ;
+    color: white;
+}
+
+.name{
+    color: grey;
+    font-size: small;
+}

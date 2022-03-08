@@ -1,0 +1,13 @@
+.popular h2{
+    text-align: center;
+}
+
+.popular h3{
+    text-align: center;
+}
+
+.popular img{
+    border: 5px solid white;
+    flex: 32%
+}
+
